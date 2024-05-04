@@ -3,11 +3,11 @@ This is a forked version of Dingedan's local_audio_player add-on
 https://github.com/dingedan/Hassio_addons
 
 # Compatibility
-I have adapted his version to work with
+The current version was verified to work with
 
-- Home Assistant Core 2022.6.7
-- Home Assistant Supervisor 2022.05.3
-- Home Assistant OS 8.2.
+- Home Assistant Core 2024.5.1
+- Home Assistant Supervisor 2024.04.4
+- Home Assistant OS 12.2
 
 Let's see how long it will take the HA developers to break this add-on. If it happens I will adapt it as quick as possible.
 
