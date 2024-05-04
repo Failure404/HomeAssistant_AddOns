@@ -22,11 +22,14 @@ OR
 1. Add my repository https://github.com/Triangulix/HomeAssistant_AddOns/ and install that way
 
 # Usage
+The following examples can be tried at: Developer tools --> Services --> [Home Assistant Supervisor: Write data to add-on stdin.]
+
+Replace "12345_sox_play" with the slug your system actually created when you installed the add-in.
 #### Play an MP3 file from the media folder
 ```yaml
       - service: hassio.addon_stdin
         data:        
-          addon: local_sox_play
+          addon: 12345_sox_play
           input: "/media/08661_SFX.mp3 vol -10dB"
 ```
 "vol -10dB" plays the file 10dB less loud, "vol 10dB" would increae the volume by 10dB.
@@ -36,7 +39,7 @@ OR
 ```yaml
       - service: hassio.addon_stdin
         data:        
-          addon: local_sox_play
+          addon: 12345_sox_play
           input: "http://<server>/file.mp3"
 ```
 
@@ -46,7 +49,7 @@ OR
 ```yaml
       - service: hassio.addon_stdin
         data:        
-          addon: local_sox_play
+          addon: 12345_sox_play
           input: "-n synth 0.25 sin 500 vol 0.5"
 ```
 Creates a beep sound
