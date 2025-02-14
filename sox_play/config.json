@@ -1,12 +1,12 @@
 {
   "name": "Local SoX Play",
-  "version": "1.0.2",
+  "version": "1.0.3",
   "slug": "sox_play",
   "description": "Call the local SoX play command to play or generate sound",
   "stdin": true,
   "arch": ["armhf", "armv7", "aarch64", "amd64", "i386"],
   "audio": true,
-  "host_network": true,
+  "host_network": false,
   "map": ["media"],
   "init": false,
   "url": "https://github.com/Triangulix/HomeAssistant_AddOns/tree/main/sox_play"
