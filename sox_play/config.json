@@ -1,6 +1,6 @@
 {
   "name": "Local SoX Play",
-  "version": "1.0.3b",
+  "version": "1.0.3c",
   "slug": "sox_play",
   "description": "Call the local SoX play command to play or generate sound",
   "stdin": true,
