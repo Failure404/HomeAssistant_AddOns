@@ -18,7 +18,7 @@ while true; do
         #echo "[Info] Processed parameters: $input"
         
         # Playing the input file
-        if ! msg="$(play $input)"; then
+        if ! msg="$(play $input &)"; then
             echo "[Error] Playing failed"
         fi
     done
